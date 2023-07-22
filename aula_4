@@ -1,0 +1,79 @@
+ nome = 'Gabriel'
+
+ while nome == 'Gabriel':
+     print(f'Hello {nome}')
+
+ contador = 0
+
+ while contador < 5:
+     print(f'Contador = {contador}')
+     contador += 1
+     #contador = contador + 1
+
+ x = 0 
+
+ for x in range (5):
+     x += 1
+    print (f'Contador = {x}')
+
+ contador = 1        
+
+ while count <=10:
+     print (f'Contador = {count}')
+     count += 1
+
+ Questão 2
+
+ contador = 10
+ while contador >= -10:
+   print(contador)
+   contador -= 1
+
+ nome1 = 'Felipe'
+ nome2 = 'Bernardo'
+
+ while nome1 == nome2:
+   print('São iguais')
+
+ count = 0
+
+ while count <10:
+     count += 1
+    if count == 6:
+         break
+     else:
+         print(count)
+
+ for i in range(5):
+    if i == 2:
+         break
+     else:
+         print(i)
+
+ count = 0
+
+ while count < 101:
+     count += 1
+     if count == 55:
+         print('Eu não quero esse numero')
+         continue
+     else:
+         print(f'Contador = {count}')   
+
+print('''
+    Olá Usuario, esse é o cadastro de usuários.
+''')
+
+nome = input('Seu nome: ')
+
+while True:
+    senha = input('Digite sua senha: ')
+    senha2 = input('Repita sua senha: ')
+    if senha == senha2:
+        print (f'''
+               Hello {nome}, Bem vindo!!!!
+               ''')
+        break
+    else:
+        continue 
+
